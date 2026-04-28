@@ -26,7 +26,8 @@
 
 |パッキング | 内容 | 数量 | 単位 |
 | --- | --- | --: | --- |
-|-|3DP製ケース|1|Set|
+|-|3DP製ケース本体|1|Set|
+|-|3DP製ケーストラックパッド|1|Set|
 |-|Socket|42|個|
 |-|スタンド|4|個|
 |ESDバッグ大|PCB本体|1|枚|
@@ -35,6 +36,7 @@
 |ポチ袋①|5Wayスイッチ|2|個|
 |ポチ袋①|LEDpipe|2|個|
 |ポチ袋①|マグネット|4|個|
+|ポチ袋①|マグネットスペーサー ※5月到着分のみ|4|個|
 |ポチ袋②|オーバレイ|2|枚|
 |ポチ袋②|5Wayノブ|2|個|
 |ポチ袋②|SW＆RSTパーツ|2|Set|
@@ -57,7 +59,7 @@
 |Seeed Studio XIAO nRF52840 Plus|2個|マイコン本体。XIAO BLEの新バージョンです。9本の追加GPIOが使用でき、より高機能なデバイスに適しています。|[スイッチサイエンス](https://www.switch-science.com/products/10468) [beekeeb.jp](https://shop.beekeeb.jp/products/seeed-studio-xiao-nrf52840-plus) [千石電商](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-6TTL) [遊舎工房](https://shop.yushakobo.jp/products/10946)|
 |Kailh Choc V2互換スイッチ|42個|静音ではDeepSeaMiniがおすすめ、打鍵感はもちもち寄り。<BR/>鳴らしつつ打鍵感の軽さを求める場合、COSMOXのShadow huntingをwomirのPBTキーキャップと組み合わせるとコリコリ感があって好みです。個人的な意見です。|[TALPKEYBOARD](https://shop.talpkeyboard.com/collections/kailh-chocv2) [遊舎工房](https://shop.yushakobo.jp/collections/all-switches/Kailh-Choc-V2%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) [Amazon](https://www.amazon.co.jp/dp/B0DSSS4MYJ/) |
 |MX軸ロープロファイルキーキャップ|42個|入手性の高さ、バリエーションの豊富さからWomierのPBTキーキャップをおすすめしています。デモ機ではFynmi無刻印黒ロープロPBTキーキャップを使用しています、打鍵感はぼちぼち。 ※19mmピッチ用且つ、サイズは1Uが38個、1.5Uが4個必要です。|[Womier](https://womierkeyboard.com/products/skyline-r2) [Amazon](https://www.amazon.co.jp/stores/page/90526727-85E5-4BF8-AAD2-FC8A78C07BE3/search?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto&terms=%E3%83%AD%E3%83%BC%E3%83%97%E3%83%AD) [アリエク](https://ja.aliexpress.com/item/1005009026343244.html)|
-|3.7Vリチウムポリマーバッテリー|2個|603048型（厚さ6.3mm幅47mm長さ110mm以下）、JST PHコネクタ（ソケットのピッチ2.0mm）※[ソケットの極性に注意！](https://github.com/ShiniNet/LaLaPadGen2/blob/main/guide/BuildGuide.md#%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D)|[Amazon](https://www.amazon.co.jp/dp/B09DRJS75J/) [PHコネクタ単品](https://www.amazon.co.jp/dp/B01MXGWMS5/)|
+|3.7Vリチウムポリマーバッテリー|2個|603048型（厚さ6.3mm幅47mm長さ110mm以下）、JST PHコネクタ（ソケットのピッチ2.0mm）※[ソケットの極性に注意！](https://github.com/ShiniNet/LaLaPadGen2/blob/main/guide/BuildGuide.md#%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D) ※初代LaLapadのバッテリーを流用可能|[Amazon](https://www.amazon.co.jp/dp/B09DRJS75J/) [PHコネクタ単品](https://www.amazon.co.jp/dp/B01MXGWMS5/)|
 |USB-Cケーブル|2本|充電、ファームウェア書き込み用。何百回と抜き差しすることになるのでマグネット式がおすすめ。||
 
 ### 道具類
@@ -73,10 +75,8 @@
 |中|ニッパー|基板の分離用。||
 |中|やすり|基板のばり取り用。ピンセットやニッパーの縁で削っても良い。||
 |中|マスキングテープ|バッテリーの固定、はんだ中にパーツを仮止めする用。||
-|中|瞬間接着剤|圧入したマグネットが取れてしまう場合の固定用。||
 |中|テスター|電源投入前に配線のショートをチェックできるので怖さが減ります。またトラブル発生時にサポートのやりとりするために必須となっています。|[amazon](https://www.amazon.co.jp/dp/B0BLZ7GN2X)|
 |中|ミニホットプレート|トラブル時にマイコンを取り外すために必須です。本ビルドガイドでは200℃出せるもので十分です。PD65W以上に対応したUSB-C充電器とケーブルが必要です。ヒートガンでも代用可能。|[amazon](https://www.amazon.co.jp/dp/B0DGFFP4CG/)|
-|代替品|はんだごて|中級者向け。安価で高出力高機能なはんだごてを使ってみたい場合、FNIRSI社製のスマートはんだごてもおすすめです。バリエーションHS-02B-Kは最初からK型のこて先付き。PD100W以上対応のUSB-C充電器とケーブルが必要です。|[アリエク](https://ja.aliexpress.com/item/1005008870209545.html)|
 
 > [!TIP]
 > - 参考商品はすべてアフィリエイトを含まない直リンクです。
@@ -185,6 +185,7 @@
 > [!TIP]
 > - 端子にフラックスを塗布し、こて先で加熱しながらはんだを流し込んでいきます。
 > - マイコンのバッテリ端子の露出が極狭（画像2枚目）なので、K型こて先の先端を上手く使ってマイコン背面端子とPCBの端面スルーホールを加熱してください。
+> - マイコンの背面端子をこて先で数秒間余熱しておくと、はんだが吸着しやすくなります。
 > - こて先が酸化していると上手く熱が伝わらず、はんだが吸着しないのでこて先をよくクリーニングしてください。
 > - 大量のフラックスとはんだを流し込み、わざとブリッジさせてからはんだ吸い取り線で余分なはんだを除去する手法も有効です。
 
@@ -341,8 +342,37 @@
 
  <img  width="512" alt="2026-02-23_21h39_38" src="../docs/images/VID_20260314_223115_01_02_36_14.jpg" /><BR/>
 
+### ボトムケース組立（新バージョン202605~）
+- マグネットスペーサーが同梱されていた場合、極性に注意しながらマグネットに取り付けます。※30x10x4mmのマグネットが同梱されていた場合、スペーサー無しで挿入可能です
+- ボトムケースにマグネットを取り付けます。
 
-### ボトムケース仮組み
+> [!TIP]
+> - 先に片側からマグネットを挿入し、中央ツメ⇒反対の外側ツメの順番で圧入すると力が分散せず挿入しやすいです。
+> - マグネットの挿入が硬すぎると感じた場合、やすり等でケース側のツメを少し削って調整してください。
+
+> [!WARNING]
+> - 強力なネオジム磁石を使用しています。割れやすいので取扱には細心の注意を払うようにしてください。
+> - ドライバーなどで１点に力が集中するような押し込みをしないでください。マグネットが割れてしまいます。
+> - マグネットの極性に注意！マグネットを完全に固定する前に、左右のボトムケースそれぞれが底面同士で張り付くことを確認してください。
+
+<img width="2324" height="1024" alt="image" src="https://github.com/user-attachments/assets/98d71db4-556b-4881-9053-8f1856218ae7" />
+
+<BR/>
+
+- ボトムケースにスタンド＆ゴム足を取り付けます。
+  
+ 
+> [!TIP]
+> - スタンド穴にバリが残っていると、スタンド挿入時に浮く原因になるので、ピンセットやニッパーやヘラ等で取り除きます。
+> - （任意）スタンドの先端に任意のゴム足を貼り付けることで、平置き時の安定が増します。
+> - （任意）キット付属のゴム足を少しカットして転用するか、追加のゴム足が欲しい場合は[BOMに購入先](https://github.com/ShiniNet/LaLaPadGen2/blob/main/guide/BomList.md)があります。
+
+<img width="2324" height="1025" alt="image" src="https://github.com/user-attachments/assets/2dcbc305-f316-4019-8f77-6f375b5be4d8" />
+
+<img width="1546" height="733" alt="image" src="https://github.com/user-attachments/assets/0761f85f-d04e-4349-93f9-66ad8fe62f50" />
+
+
+### ボトムケース組立（旧バージョン）
 - ボトムケースへマグネット、スタンド、ゴム足を取り付けていきます。
 - スタンドとゴム足は両面テープ付きですので保護シールを剥がしてから貼り付けてください。
 - マグネットは正しく挿入された事を確認したら裏から接着剤等で固定してください。
@@ -359,12 +389,6 @@
 > - マグネットの極性に注意！マグネットを完全に固定する前に、左右のボトムケースそれぞれが底面同士で張り付くことを確認してください。
 
 <img width="1030" height="774" alt="2026-02-23_21h19_22" src="https://github.com/user-attachments/assets/ee0c3036-68b8-46fb-8a81-9e26396851b1" /><BR/>
-
-> [!TIP]
-> - スタンドの先端に任意のゴム足を貼り付けることで、平置き時の安定が増します。
-> - キット付属のゴム足を少しカットして転用するか、追加のゴム足が欲しい場合は[BOMに購入先](https://github.com/ShiniNet/LaLaPadGen2/blob/main/guide/BomList.md)があります。
-
-<img width="1546" height="1024" alt="image" src="https://github.com/user-attachments/assets/66a1e9a6-7d18-490e-b3ba-7c2f37ba467c" />
 
 
 ### ボトムケースへPCB＆バッテリーの組み込み
