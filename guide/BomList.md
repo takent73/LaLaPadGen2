@@ -26,7 +26,7 @@
 | マグネット | マグネット | N35 30x10x4(±0.1)mm | [MAGFINE](https://www.magfine.com/products/detail/6099) | ※202605以降バージョン用 |
 | 外装 | オーバーレイ | 40x50mm | [amazon](https://www.amazon.co.jp/dp/B095X6NMDL/)  [aliexpress](https://ja.aliexpress.com/item/1005008859878162.html) | 自分でカットする|
 | ケーブル | FFC | 6pin, 0.5mm pitch, 5～6cm, reverse type | [amazon](https://www.amazon.co.jp/dp/B0G2J9PV6X/)  [aliexpress](https://ja.aliexpress.com/item/10000013182312.html)  | |
-| 機構部品 | スタンド | 約65.3 x 19.2 x 6 mm | [amazon](https://www.amazon.co.jp/dp/B0G2BL5LF1) [amazon](https://www.amazon.co.jp/dp/B0FSKF2CH6) | |
+| 機構部品 | スタンド | 約65.3 x 19.2 x 6 mm | [beekeeb](https://shop.beekeeb.jp/products/black-tenting-stand) [amazon](https://www.amazon.co.jp/dp/B0G2BL5LF1) [amazon](https://www.amazon.co.jp/dp/B0FSKF2CH6) | |
 | 機構部品 | ゴム足 | 30x10x1mm | [aliexpress](https://ja.aliexpress.com/item/1005008164948206.html)  |自分でカットする |
 
 ## 3. その他
