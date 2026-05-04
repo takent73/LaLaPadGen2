@@ -43,6 +43,7 @@ LaLapad gen2 は、
 - [ビルドガイド](https://github.com/ShiniNet/LaLaPadGen2/blob/main/guide/BuildGuide.md)
 - [ファームウェア](https://github.com/ShiniNet/zmk-config-LalaPadGen2)
 - [3Dモデルデータ](https://makerworld.com/ja/models/2441156-lalapad-gen2-keyboard-case#profileId-2678828)
+- [部品表（BOM）](./guide/BomList.md)
 - [転売品やサポートに関するガイドライン](https://github.com/ShiniNet/LalaPad/blob/main/doc/ResaleGuideline.md)
 
 ## [キーボードの使い方・カスタマイズ](https://github.com/ShiniNet/LaLaPadGen2/blob/main/guide/HowtoUse.md)
