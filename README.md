@@ -42,7 +42,9 @@ LaLapad gen2 は、
 - [頒布ページ](https://shininet.booth.pm/items/8039543)
 - [ビルドガイド](https://github.com/ShiniNet/LaLaPadGen2/blob/main/guide/BuildGuide.md)
 - [ファームウェア](https://github.com/ShiniNet/zmk-config-LalaPadGen2)
-- [3Dモデルデータ](https://makerworld.com/ja/models/2441156-lalapad-gen2-keyboard-case#profileId-2678828)
+- 3Dモデルデータ
+  - [ケース本体](https://makerworld.com/ja/models/2441156-lalapad-gen2-keyboard-case#profileId-2678828)
+  - [キーキャップ1.5U](https://makerworld.com/ja/models/2807826-choc-v2-lak-like-low-profile-keycaps-1-5u-1u#profileId-3124726)
 - [部品表（BOM）](./guide/BomList.md)
 - [転売品やサポートに関するガイドライン](https://github.com/ShiniNet/LalaPad/blob/main/doc/ResaleGuideline.md)
 
