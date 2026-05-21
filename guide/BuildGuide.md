@@ -317,6 +317,7 @@
 
 ![IMG_20260212_193828](https://github.com/user-attachments/assets/f718810d-dcbf-451d-9033-94a99ac24a41)<BR/>
 
+<img width="1546" height="737" alt="image" src="https://github.com/user-attachments/assets/7d010f6e-6d21-4b10-bb79-9bfe1f531749" />
 
 
 ## ケースへの組み込み
