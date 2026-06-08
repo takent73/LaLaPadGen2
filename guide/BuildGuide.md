@@ -126,6 +126,9 @@
 ### PCBの前処理
 - ニッパー等で赤丸で囲ったランナー部分をカットします。（素手でも折れると思います）
 
+> [!WARNING]
+> - 稀に輸送時の衝撃等によって基盤が初めから分離している場合があります。最終的にユーザーの手元で分離する設計になっており、使用上問題はございませんので予めご了承ください。
+
 <img width="2058" height="768" alt="2026-02-22_19h42_47" src="https://github.com/user-attachments/assets/c0009840-4969-43ea-9bb8-3fd0595d3fa5" />
 
 > [!WARNING]
@@ -194,6 +197,12 @@
 > - 大量のフラックスとはんだを流し込み、わざとブリッジさせてからはんだ吸い取り線で余分なはんだを除去する手法も有効です。
 
 <img width="1665" height="768" alt="2026-02-22_20h00_16" src="https://github.com/user-attachments/assets/43663235-e21a-4c00-b2c1-ded590d175db" /><BR/> 
+
+
+> [!TIP]
+> - どうしても背面端子のはんだ付けが上手くいかない場合、マイコン背面端子（BAT+、Reset）に極細の導線をはんだづけして、PCBのBAT+とResetに直結することでも動作させることができます。
+
+<img width="1114" height="431" alt="2026-06-09_00h54_56" src="https://github.com/user-attachments/assets/272ab7a9-fb79-4851-86ff-899d3c9cde19" />
 
 
 ### 5Wayスイッチの実装
