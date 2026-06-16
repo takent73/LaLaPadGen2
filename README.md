@@ -2,7 +2,7 @@
 <img width="1280" height="932" alt="ProductImages_Github" src="https://github.com/user-attachments/assets/03032c68-08d1-45aa-835f-7e23d26831ce" />
 
 <BR/>  
-  
+  test
 LaLapad gen2 は、
 独自設計のダブルトラックパッドを搭載した
 ワイヤレス分割キーボードです。
