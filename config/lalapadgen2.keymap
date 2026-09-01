@@ -82,7 +82,7 @@
 &none       &kp KP_N7  &kp KP_N8  &kp KP_N9  &none                          &none      &none      &kp UP        &none      &none
 &kp KP_N0   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp F4                         &none      &kp LEFT   &kp DOWN      &kp RIGHT  &none
 &kp PERIOD  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp COLON                      &kp PLUS   &kp MINUS  &kp ASTERISK  &kp SLASH  &kp EQUAL
-&kp LALT    &kp LCTRL  &kp LSHFT  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp DEL  &kp ENTER  &mo 4      &none         &none      &kp ESC
+&kp LALT    &kp LCTRL  &kp LSHFT  &kp LC(C)  &kp LC(V)  &kp SPACE  &kp DEL  &kp ENTER  &mo 4      &none         &none      &kp ESC
             &to 0      &trans     &trans     &trans     &trans     &trans   &trans     &trans     &trans        &to 0
 &trans      &trans     &trans                                                                     &trans        &trans     &trans
 &trans      &trans     &trans     &trans     &trans                         &trans     &trans     &trans        &trans     &trans
@@ -92,26 +92,26 @@
         Symbol {
             display-name = "Symbol";
             bindings = <
-&kp SQT   &kp DQT        &kp EXCL    &none     &kp TILDE                      &none          &kp LBRC  &kp RBRC   &none     &kp PERCENT
-&kp AT    &kp SEMICOLON  &kp DOLLAR  &none     &kp HASH                       &kp CARET      &kp LPAR  &kp RPAR   &none     &none
-&none     &none          &kp COLON   &kp PIPE  &kp BACKSLASH                  &kp AMPERSAND  &kp LBKT  &kp RBKT   &none     &none
-&kp LALT  &kp LCTRL      &kp LSHFT   &none     &none          &none   &none   &none          &none     &kp LANG1  &kp CAPS  &kp LANG2
-          &to 0          &trans      &trans    &trans         &trans  &trans  &trans         &trans    &trans     &to 0
-&trans    &trans         &trans                                                                        &trans     &trans    &trans
-&trans    &trans         &trans      &trans    &trans                         &trans         &trans    &trans     &trans    &trans
+&kp SQT   &kp DQT        &kp EXCL    &none     &kp TILDE                         &none          &kp LBRC  &kp RBRC   &none     &kp PERCENT
+&kp AT    &kp SEMICOLON  &kp DOLLAR  &none     &kp HASH                          &kp CARET      &kp LPAR  &kp RPAR   &none     &none
+&none     &none          &kp COLON   &kp PIPE  &kp BACKSLASH                     &kp AMPERSAND  &kp LBKT  &kp RBKT   &none     &none
+&kp LALT  &kp LCTRL      &kp LSHFT   &none     &none          &kp SPACE  &none   &none          &none     &kp LANG1  &kp CAPS  &kp LANG2
+          &to 0          &trans      &trans    &trans         &trans     &trans  &trans         &trans    &trans     &to 0
+&trans    &trans         &trans                                                                           &trans     &trans    &trans
+&trans    &trans         &trans      &trans    &trans                            &trans         &trans    &trans     &trans    &trans
             >;
         };
 
         Arrow {
             display-name = "Arrow";
             bindings = <
-&none     &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &none                       &none   &kp CAPS    &kp TAB    &none         &none
-&kp HOME  &kp LEFT      &kp DOWN  &kp RIGHT      &kp END                     &none   &kp LSHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI
-&none     &kp PAGE_UP   &none     &kp PAGE_DOWN  &none                       &none   &none       &none      &none         &none
-&kp ESC   &none         &none     &none          &kp DEL  &kp ENTER  &none   &none   &none       &none      &none         &none
-          &to 0         &trans    &trans         &trans   &trans     &trans  &trans  &trans      &trans     &to 0
-&trans    &trans        &trans                                                                   &trans     &trans        &trans
-&trans    &trans        &trans    &trans         &trans                      &trans  &trans      &trans     &trans        &trans
+&none     &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &none                        &none      &kp CAPS    &kp TAB    &none         &none
+&kp HOME  &kp LEFT      &kp DOWN  &kp RIGHT      &kp END                      &none      &kp LSHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI
+&none     &kp PAGE_UP   &none     &kp PAGE_DOWN  &none                        &none      &none       &none      &none         &none
+&kp ESC   &none         &none     &none          &kp DEL  &kp ENTER  &kp DEL  &kp ENTER  &none       &none      &none         &none
+          &to 0         &trans    &trans         &trans   &trans     &trans   &trans     &trans      &trans     &to 0
+&trans    &trans        &trans                                                                       &trans     &trans        &trans
+&trans    &trans        &trans    &trans         &trans                       &trans     &trans      &trans     &trans        &trans
             >;
         };
 
