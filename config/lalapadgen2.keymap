@@ -63,12 +63,12 @@
 
         Kana {
             bindings = <&kp LANG1>;
-            key-positions = <36 15>;
+            key-positions = <16 37>;
         };
 
         Eisu {
             bindings = <&kp LANG2>;
-            key-positions = <35 14>;
+            key-positions = <34 13>;
         };
     };
 
@@ -91,26 +91,26 @@
         Number {
             display-name = "Number";
             bindings = <
-&none       &kp KP_N7  &kp KP_N8  &kp KP_N9  &none                          &none      &none      &kp UP        &none      &none
-&kp KP_N0   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp F4                         &none      &kp LEFT   &kp DOWN      &kp RIGHT  &none
-&kp KP_DOT  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp COLON                      &kp PLUS   &kp MINUS  &kp ASTERISK  &kp SLASH  &kp EQUAL
-&kp LALT    &kp LCTRL  &kp LSHFT  &kp LC(C)  &kp LC(V)  &kp SPACE  &kp DEL  &kp ENTER  &mo 4      &none         &none      &kp ESC
-            &to 0      &trans     &trans     &trans     &trans     &trans   &trans     &trans     &trans        &to 0
-&trans      &trans     &trans                                                                     &trans        &trans     &trans
-&trans      &trans     &trans     &trans     &trans                         &trans     &trans     &trans        &trans     &trans
+&none       &kp KP_N7  &kp KP_N8  &kp KP_N9  &none                               &none      &none      &kp UP        &none      &none
+&kp KP_N0   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp F4                              &none      &kp LEFT   &kp DOWN      &kp RIGHT  &none
+&kp KP_DOT  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp COLON                           &kp PLUS   &kp MINUS  &kp ASTERISK  &kp SLASH  &kp EQUAL
+&kp LALT    &kp LCTRL  &kp LSHFT  &none      &kp LANGUAGE_2  &kp SPACE  &kp DEL  &kp ENTER  &mo 4      &none         &none      &kp ESC
+            &to 0      &trans     &trans     &trans          &trans     &trans   &trans     &trans     &trans        &to 0
+&trans      &trans     &trans                                                                          &trans        &trans     &trans
+&trans      &trans     &trans     &trans     &trans                              &trans     &trans     &trans        &trans     &trans
             >;
         };
 
         Symbol {
             display-name = "Symbol";
             bindings = <
-&kp SQT   &kp DQT        &kp EXCL    &none     &kp TILDE                         &none          &kp LBRC  &kp RBRC   &none   &kp PERCENT
-&kp AT    &kp SEMICOLON  &kp DOLLAR  &none     &kp HASH                          &kp CARET      &kp LPAR  &kp RPAR   &none   &none
-&none     &none          &kp COLON   &kp PIPE  &kp BACKSLASH                     &kp AMPERSAND  &kp LBKT  &kp RBKT   &none   &none
-&kp LALT  &kp LCTRL      &kp LSHFT   &none     &none          &kp SPACE  &none   &none          &none     &kp LANG1  &none   &kp LANG2
-          &to 0          &trans      &trans    &trans         &trans     &trans  &trans         &trans    &trans     &to 0
-&trans    &trans         &trans                                                                           &trans     &trans  &trans
-&trans    &trans         &trans      &trans    &trans                            &trans         &trans    &trans     &trans  &trans
+&kp SQT   &kp DQT        &kp EXCL    &none     &kp TILDE                         &none          &kp LBRC  &kp RBRC  &none   &kp PERCENT
+&kp AT    &kp SEMICOLON  &kp DOLLAR  &none     &kp HASH                          &kp CARET      &kp LPAR  &kp RPAR  &none   &none
+&none     &none          &kp COLON   &kp PIPE  &kp BACKSLASH                     &kp AMPERSAND  &kp LBKT  &kp RBKT  &none   &none
+&kp LALT  &kp LCTRL      &kp LSHFT   &none     &none          &kp SPACE  &none   &kp LANG1      &none     &none     &none   &none
+          &to 0          &trans      &trans    &trans         &trans     &trans  &trans         &trans    &trans    &to 0
+&trans    &trans         &trans                                                                           &trans    &trans  &trans
+&trans    &trans         &trans      &trans    &trans                            &trans         &trans    &trans    &trans  &trans
             >;
         };
 
