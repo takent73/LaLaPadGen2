@@ -3,7 +3,10 @@ include:
   - board: seeeduino_xiao_ble
     shield: lalapadgen2_right rgbled_adapter
     snippet: studio-rpc-usb-uart
+    artifact-name: settings_LaLaPad_R
   - board: seeeduino_xiao_ble
     shield: lalapadgen2_left rgbled_adapter
+    artifact-name: settings_LaLaPad_L
   - board: seeeduino_xiao_ble
     shield: settings_reset
+    artifact-name: settings_reset
