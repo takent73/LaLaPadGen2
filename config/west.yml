@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: ShiniNet
-      url-base: https://github.com/ShiniNet/
+      url-base: https://github.com/ShiniNet
     - name: caksoylar
       url-base: https://github.com/caksoylar
   projects:
