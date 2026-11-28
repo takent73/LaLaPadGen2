@@ -9,8 +9,7 @@
 #define Number    1
 #define Symbol    2
 #define Arrow    3
-#define Numpad    4
-#define System    5
+#define Function    4
 
 &mt {
     tapping-term-ms = <275>;
