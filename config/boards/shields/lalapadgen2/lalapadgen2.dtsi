@@ -58,7 +58,7 @@
             ;
     };
 
-    // Input Listners
+    // Input Listeners
     split_inputs_R {
         #address-cells = <1>;
         #size-cells = <0>;
@@ -135,7 +135,7 @@
                     &tp_to_pos  POS_TP_PINCH_L
                     >;
     };
-    
+
     zip_dynamic_xy_scaler: zip_dynamic_xy_scaler {
         compatible = "zmk,input-processor-dynamic-scaler";
         #input-processor-cells = <0>;
@@ -210,7 +210,7 @@
             gpios = <&gpio1 7 GPIO_ACTIVE_LOW>;  // blue LED, connected to P1.07
         };
     };
-    
+
     easy_charge_indicator: easy_charge_indicator {
         compatible = "zmk,easy-charge-indicator";
         status = "okay";
